@@ -1,0 +1,33 @@
+---
+title: Mi carrito
+---
+<div class="container">
+  <ul class="list-unstyled">
+  <% products = data.products.last(5) %>
+  <% products.each do |product| %>
+  <li class="media">
+    <div class="w-15 mr-3">
+      <%= image_tag product.image, class: "img-fluid" %>
+    </div>
+    <div class="media-body">
+      <div class="row">
+        <div class="col">
+          <h5 class="mt-0"><%= product.name %></h5>
+          <p>
+            <%= product.description %>
+          </p>
+        </div>
+        <div class="col text-right">
+          <h6><%= number_to_currency product.price %></h6>
+        </div>
+      </div>
+    </div>
+  </li>
+  <% end %>
+  </ul>
+  <hr>
+  <div class="text-right font-weight-bold">
+    <span class="text-uppercase">total:</span>
+    <%= number_to_currency products.sum(&:price) %>
+  </div>
+</div>

@@ -1,0 +1,71 @@
+- name: Pulsera Oro
+  slug: pulsera-oro-1
+  image: product-00000.jpg
+  description: Pulsera de Oro 14 kilates
+  price: 249.90
+
+- name: Juego Reloj Bamboo
+  slug: juego-reloj-bamboo-1
+  image: product-00001.jpg
+  description: Juego de 2 relojes de madera bamboo
+  price: 612
+
+- name: Bolsa negra piel
+  slug: bolsa-negra-piel-1
+  image: product-00002.jpg
+  description: Bolsa para dama, color negro
+  price: 999.90
+
+- name: Camiseta
+  slug: camiseta-1
+  image: product-00003.jpg
+  description: Camiseta de Algodón, varias tallas
+  price: 129.90
+
+- name: Juego Reloj Negro
+  slug: juego-reloj-negro-1
+  image: product-00004.jpg
+  description: Juego de 2 relojes color negro
+  price: 612
+
+- name: Pulsera
+  slug: pulsera-1
+  image: product-00005.jpg
+  description: Pulsera de Buda, color negro, unisex
+  price: 50
+
+- name: Aretes
+  slug: aretes-1
+  image: product-00006.jpg
+  description: Aretes colro azul
+  price: 149.50
+
+- name: Audifonos inalambricos
+  slug: audifono-inalambricos-1
+  image: product-00007.jpg
+  description: Audifonos bluetooth
+  price: 1949.50
+
+- name: Tennis
+  slug: tennis-1
+  image: product-00008.jpg
+  description: Tennis rojos, con luces led, RGB
+  price: 2599.50
+
+- name: Tennis para correr
+  slug: tennis-2
+  image: product-00009.jpg
+  description: Tennis negros, comodos, para correr
+  price: 1999.50
+
+- name: Mochila de cuero
+  slug: mochila-1
+  image: product-00010.jpg
+  description: Mochila de cuero, color negro
+  price: 499.50
+
+- name: Zapatos de tela mezclilla
+  slug: zapatos-1
+  image: product-00011.jpg
+  description: Zapatos de tele de mezclilla, color azul
+  price: 1499.50

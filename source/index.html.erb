@@ -1,0 +1,27 @@
+---
+title: "Amazing Store: Precios más bajos"
+---
+
+<div class="container">
+  <div class="card-columns">
+    <% data.products.each do |product| %>
+    <div class="card">
+      <%= content_tag(:a, href: "/products/#{product.slug}.html") { 
+        image_tag product.image, class: "card-img-top"
+      } %>
+      <div class="card-body">
+        <h5 class="card-title">
+          <%= product.name %>
+          <small class="card-subtitle text-muted"><%= number_to_currency product.price %></small>
+        </h5>
+        <p class="card-text">
+          <%= product.description %>
+        </p>
+        <button class="btn btn-warning">
+          <i class="fas fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
